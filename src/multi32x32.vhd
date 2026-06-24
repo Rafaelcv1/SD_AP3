@@ -23,7 +23,7 @@ begin
             B => B(31 downto 16),
             result => mult_AHBH_out
         );
-    reg1: entity work.reg
+    reg161: entity work.reg
         generic map (N => 32)
         port map (
             clk => clk,
@@ -38,7 +38,7 @@ begin
             B => B(15 downto 0),
             result => mult_AHBL_out
         );
-    reg2: entity work.reg
+    reg162: entity work.reg
         generic map (N => 32)
         port map (
             clk => clk,
@@ -53,7 +53,7 @@ begin
             B => B(31 downto 16),
             result => mult_ALBH_out
         );
-    reg3: entity work.reg
+    reg163: entity work.reg
         generic map (N => 32)
         port map (
             clk => clk,
@@ -68,7 +68,7 @@ begin
             B => B(15 downto 0),
             result => mult_ALBL_out
         );
-    reg4: entity work.reg
+    reg164: entity work.reg
         generic map (N => 32)
         port map (
             clk => clk,
