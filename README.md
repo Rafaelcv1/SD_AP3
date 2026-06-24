@@ -21,14 +21,14 @@ To prevent critical path inflation and maintain a high clock frequency (reducing
 ## 📐 Vedic Multiplication Algorithm (2x2 Block Basis)
 
 The cross-multiplication pattern follows this structure:
-
-| A1  |  A0 |
-    \   /
-     \ /
+```text
+|  A1  |  A0  |
+    \    /
+     \  /
       /\
      /  \
-| B1 | B0 |
-
+|  B1  |  B0  |
+```
 * Step 1: A0B0;
 * Step 2: A1B0;
 * Step 3: A0B1;
